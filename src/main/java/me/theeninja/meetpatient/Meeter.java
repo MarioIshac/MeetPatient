@@ -25,5 +25,5 @@ public class Meeter {
     @NonNull
     private final Set<Meeter> friends = new HashSet<>();
     
-    private final Location targetLocation;
+    private Location targetLocation;
 }
